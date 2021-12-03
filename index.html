@@ -255,7 +255,63 @@
     </div>
   </div>
   <!-- End About area -->
+<!-- The Modal -->
 
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header">
+        
+      <center>  <span class="modal-title" style="font-size: 20px">Dcube Application Form</span></center>
+        <button type="button" class="close" data-bs-dismiss="modal">×</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body">
+  <span class="text-intro" style="color: red;"></span>
+  <div class="form-div">
+        <form  id="applicationform" name="applicationform" enctype="multipart/form-data">
+        <div class="form-group">
+  <select  class="form-control"name="Jobtype"  id="Jobtype" >
+  <option value="">Select Job Title</option>
+</select>
+</div>
+        <div class="form-group">
+  <input type="text" class="form-control"  id="Name" placeholder="Enter Your Name" name="Name" style="vertical-align: middle;" required>
+</div>
+<div class="form-group">
+  <input type="email" class="form-control" id="Email" placeholder="Enter Your Email" name="Email" required>
+</div>
+ <div class="form-group">
+  <input type="text" class="form-control" id="number" placeholder="Enter Your Number" name="number" required>
+</div>
+<div class="form-group">
+  <input type="text" class="form-control" id="experience" placeholder="Enter Your Experience" name="experience" required>
+</div>
+<div class="form-group">
+  <div class="col-md-12 col-lg-12 col-xl-12 row">
+    <div class="col-md-9 col-lg-9 col-xl-9">
+      <input type="file" class="form-control" id="avatar"  name="avatar" required>
+    </div>
+    <div class="col-md-3 col-lg-3 col-xl-3">
+       <input type="button" class="btn btn-info btn-block mybtn"  id="upload" value="Upload">
+    </div>
+  
+ 
+</div>
+</div>
+
+<button type="submit" class="btn btn-info btn-block mybtn"  id="submit">Submit</button>
+
+</form>
+  </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
   <!-- Start Service area -->
   <div id="services" class="services-area area-padding">
     <div class="container">
